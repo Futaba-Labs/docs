@@ -33,4 +33,3 @@
 ## 🔗 Links
 
 * [Twitter](https://twitter.com/FutabaOmni)
-* [Demo](https://demo.futaba.dev/)
