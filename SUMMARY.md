@@ -28,6 +28,7 @@
   * [Custom query](guide/futaba-demo/custom-query.md)
   * [Access cache](guide/futaba-demo/access-cache.md)
   * [Cross-chain voting](guide/futaba-demo/cross-chain-voting.md)
+* [Futaba SDK](guide/futaba-sdk.md)
 
 ## 📗 References
 
