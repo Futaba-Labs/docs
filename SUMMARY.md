@@ -23,6 +23,11 @@
 * [Quick Start](guide/quick-start.md)
 * [Customize Light Client](guide/customize-light-client.md)
 * [Example Apps](guide/example-apps.md)
+* [Futaba Demo](guide/futaba-demo/README.md)
+  * [Balance query](guide/futaba-demo/balance-query.md)
+  * [Custom query](guide/futaba-demo/custom-query.md)
+  * [Access cache](guide/futaba-demo/access-cache.md)
+  * [Cross-chain voting](guide/futaba-demo/cross-chain-voting.md)
 
 ## 📗 References
 
