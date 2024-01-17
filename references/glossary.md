@@ -35,3 +35,7 @@ An intermediary between the src chain and the destination chain, which acquires 
 #### Oracle
 
 A node used to obtain the height block header of a specific block on a specific chain.
+
+#### Storage proof
+
+A cryptographic commitment is used to prove that a storage value or transaction has been committed to the blockchain tree and that it is valid.

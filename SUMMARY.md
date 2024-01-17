@@ -2,7 +2,7 @@
 
 ## 🌱 Introduction
 
-* [Futaba Introduction](README.md)
+* [Introduction](README.md)
 * [Concept](introduction/concept.md)
 * [Architecture](introduction/architecture.md)
 

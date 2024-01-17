@@ -4,7 +4,15 @@ description: Query lifecycle from data request to retrieval
 
 # Architecture
 
-<figure><img src="../.gitbook/assets/futaba_high-level_architecture.jpg" alt=""><figcaption><p>High-level architecture</p></figcaption></figure>
+### High-level Architecture
+
+<figure><img src="../.gitbook/assets/futaba_arch.png" alt=""><figcaption><p>High-level Architecture</p></figcaption></figure>
+
+In Futaba, [Relayer](../protocol/relayer.md) and [Konoha (Oracle)](../protocol/oracle.md) are the off-chain components and they receive the Src (source) chain requests. Relayer then retrieves the storage proof from each chain, and Konoha retrieves the block headers and returns them to the Src chain for validation.
+
+### Detailed Architecture
+
+<figure><img src="../.gitbook/assets/futaba_high-level_architecture.jpg" alt=""><figcaption><p>Detailed architecture</p></figcaption></figure>
 
 **Phase1: request query**
 
