@@ -4,7 +4,7 @@ description: Endpoints that receive query results from Relayer
 
 # Receive
 
-This function is the endpoint from which Relayer obtains the proof and returns it to the src chain.
+This function is the endpoint from which [Relayer](../relayer.md) obtains the proof and returns it to the src chain.
 
 ```solidity
 struct QueryResponse {
@@ -19,10 +19,10 @@ function receiveQuery(QueryResponse memory response) external;
 
 What the `receiveQuery` function does:
 
-* Verify if Gelato's Relayer executed the function
+* Verify if Gelato's [Relayer](../relayer.md) executed the function
 * Verify the proof and extract the acquisition data
-  * Done through the interface by the Light Client Contract
-* Pay fees to the Relayer
+  * Done through the interface by the [Light Client Contract](../light-client/)
+* Pay fees to the [Relayer](../relayer.md)
 * Return data to the user
 
 To return data to the User Contract, the User Contract must inherit the following interface:

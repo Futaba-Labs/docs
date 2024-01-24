@@ -6,7 +6,7 @@ description: Terms used in Futaba
 
 #### Src chain
 
-The source chain which requests data and receives the result.
+The source chain requests data and receives the result.
 
 #### Destination chain
 
@@ -22,20 +22,16 @@ The contract endpoint requests data acquisition.
 
 #### Light Client Contract
 
-A contract that verifies data and can build its own logic.
-
-#### Oracle Contract
-
-A contract that requests Oracle and defines its callback function.
+A contract that verifies data and can build its logic.
 
 #### Relayer
 
 An intermediary between the src chain and the destination chain, which acquires proof for the destination chain and sends the data to the src chain.
 
-#### Oracle
-
-A node used to obtain the height block header of a specific block on a specific chain.
-
 #### Storage proof
 
 A cryptographic commitment is used to prove that a storage value or transaction has been committed to the blockchain tree and that it is valid.
+
+#### Konoha
+
+A module for retrieving the appropriate block header for each ecosystem. The default is Chainlink Oracle, with the possibility of using ZK Coprocessors such as Largange or Herodotus in the future.

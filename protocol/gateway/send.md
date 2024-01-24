@@ -4,7 +4,7 @@ description: Endpoint to request query
 
 # Send
 
-Execute this function via an interface from a User-defined contract In this case, it is necessary to send the fee to be paid to Relayer as `msg.value`.
+Execute this function via an interface from a User-defined contract In this case, it is necessary to send the fee to be paid to [Relayer](../relayer.md) as `msg.value`.
 
 ```solidity
 struct QueryRequest {
@@ -31,7 +31,7 @@ What the `query` function does:
 * Execute the light client process as necessary
   * Currently, sending a request to Chainlink's Node Operator
 * Emit a request event
-* Pay fees to Relayer
+* Pay fees to [Relayer](../relayer.md)
   * Calculate the transaction fee off-chain and send the token based on it
 
 #### Calculate the query Id

@@ -16,18 +16,21 @@
   * [Request Query](protocol/light-client/request-query.md)
   * [Verify](protocol/light-client/verify.md)
 * [Relayer](protocol/relayer.md)
-* [Oracle](protocol/oracle.md)
+* [Konoha](protocol/konoha/README.md)
+  * [Chainlink Oracle](protocol/konoha/chainlink-oracle.md)
+  * [Herodotus](protocol/konoha/herodotus.md)
+  * [Lagrange](protocol/konoha/lagrange.md)
 
 ## 💡 Guide
 
+* [Futaba Testnet](guide/futaba-testnet/README.md)
+  * [Balance query](guide/futaba-testnet/balance-query.md)
+  * [Custom query](guide/futaba-testnet/custom-query.md)
+  * [Access cache](guide/futaba-testnet/access-cache.md)
+  * [Cross-chain voting](guide/futaba-testnet/cross-chain-voting.md)
 * [Quick Start](guide/quick-start.md)
 * [Customize Light Client](guide/customize-light-client.md)
 * [Example Apps](guide/example-apps.md)
-* [Futaba Demo](guide/futaba-demo/README.md)
-  * [Balance query](guide/futaba-demo/balance-query.md)
-  * [Custom query](guide/futaba-demo/custom-query.md)
-  * [Access cache](guide/futaba-demo/access-cache.md)
-  * [Cross-chain voting](guide/futaba-demo/cross-chain-voting.md)
 
 ## 📗 References
 
