@@ -6,15 +6,17 @@
 * [Concept](introduction/concept.md)
 * [Architecture](introduction/architecture.md)
 
-## 🛠 Protocol
+## 🛠️ Protocol
 
 * [Gateway](protocol/gateway/README.md)
   * [Send](protocol/gateway/send.md)
   * [Receive](protocol/gateway/receive.md)
+  * [Estimate fee](protocol/gateway/estimate-fee.md)
   * [Cache](protocol/gateway/cache.md)
 * [Light Client](protocol/light-client/README.md)
   * [Request Query](protocol/light-client/request-query.md)
   * [Verify](protocol/light-client/verify.md)
+  * [Estimate fee](protocol/light-client/estimate-fee.md)
 * [Relayer](protocol/relayer.md)
 * [Konoha](protocol/konoha/README.md)
   * [Chainlink Oracle](protocol/konoha/chainlink-oracle.md)
@@ -41,3 +43,4 @@
 ## 🔗 Links
 
 * [Twitter](https://twitter.com/FutabaOmni)
+* [Blog](https://mirror.xyz/0xd10ee2A60B617531e4084a392cC87313ef9597EF)

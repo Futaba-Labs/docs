@@ -11,6 +11,6 @@ Relayers act as intermediaries between the source chain and the destination chai
   * Use `eth_getProof` to obtain account proof and a storage proof
 * Send the proof as a transaction to the [Gateway Contract](gateway/) on the source chain
 
-Currently using [Gelato](https://www.gelato.network/), including the risk of private key management and simplification of the fee system. However, we may build our own [Relayer](relayer.md) in the future.
+Today, Futaba operates its own Relayer. In the future, we will provide a module to customize Relayer more easily to support Proof of Block Hash when using [konoha](konoha/ "mention"), and aim to build a Permissionless Relayer.
 
-Click [here](https://docs.gelato.network/developer-services/relay/payment-and-fees#gelatos-fees) for a list of fees collected by Gelato.
+The current Fee for Relayer can be found in [estimate-fee.md](light-client/estimate-fee.md "mention").
