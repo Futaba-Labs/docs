@@ -15,11 +15,9 @@ You can use tools like [solc](https://docs.soliditylang.org/en/v0.8.19/using-the
 Additionally, for clearer explanations, you can refer to [the documentation](https://docs.axiom.xyz/developers/sending-a-query/finding-storage-slots) provided by Axiom.
 
 If you don't have data to query, you can use the following sample data to execute the query.\
-(You can query the Goerli USDC held by `0x2274d2C66dC7936044f7B46b7401c3F5187B78aa`)
+(You can query the Sepolia USDC held by `0x1aaaeb006AC4DE12C4630BB44ED00A764f37bef8`)
 
-<table><thead><tr><th width="97">Chain</th><th width="129">Block height</th><th width="243">Contract address</th><th>Slot</th></tr></thead><tbody><tr><td>Goerli</td><td>8947360</td><td><code>0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43</code></td><td><code>0xac94f423a384a9d9a46ae4ac92c45b0aac171c967c618e74db0938ae8eb3d349</code></td></tr></tbody></table>
-
-<figure><img src="../../.gitbook/assets/custom_query" alt=""><figcaption></figcaption></figure>
+<table><thead><tr><th width="112">Chain</th><th width="129">Block height</th><th width="243">Contract address</th><th>Slot</th></tr></thead><tbody><tr><td>Sepolia</td><td><code>5407197</code></td><td><code>0x91D1a12c16d2Ff1c072069a9d9c90d2c0299B244</code></td><td><code>0xf8a7b40e9f08589bcdc65a6dd287fc853d1877d75bf7422ff09c0651dea732a4</code></td></tr></tbody></table>
 
 #### 2. Submit the queries
 

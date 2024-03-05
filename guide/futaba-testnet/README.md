@@ -1,6 +1,6 @@
 # Futaba Testnet
 
-At ([https://demo.futaba.dev](https://demo.futaba.dev/)), we will explain how to use Futaba Testnet.
+At ([https://testnet.futaba.dev](https://demo.futaba.dev/)), we will explain how to use Futaba Testnet.
 
 Test out Futaba Testnet showcasing these usecases:
 
@@ -16,7 +16,7 @@ Video showing steps to use Futaba Testnet.
 
 Get the tokens you need from [Faucet](https://demo.futaba.dev/faucet) to use in testnet.
 
-You can get ERC721 for [cross-chain-voting.md](cross-chain-voting.md "mention") and ERC20 (Goerli, Optimism Goerli, Arbiturm Goerli) for [balance-query.md](balance-query.md "mention").
+You can get ERC721 for [cross-chain-voting.md](cross-chain-voting.md "mention") and ERC20 (Sepolia, Optimism Sepolia, Arbiturm Sepolia) for [balance-query.md](balance-query.md "mention").
 
 After entering your wallet address, press "Send me tokens" to see the transaction hashes of the tokens you got from Faucet in "Your transactions".
 

@@ -4,7 +4,7 @@ description: Aggregate the token balances
 
 # Balance query
 
-"Balance query" ([https://demo.futaba.dev/](https://demo.futaba.dev/)) involves retrieving the balances of tokens from other chains and minting a new token equivalent to their total.\
+"Balance query" ([https://testnet.futaba.dev/](https://demo.futaba.dev/)) involves retrieving the balances of tokens from other chains and minting a new token equivalent to their total.\
 To submit the query, the following steps are required;
 
 #### 1. Input the content of the query
@@ -17,9 +17,9 @@ If you want to add a query, please press "Add Query" and add a form. You can add
 
 Here are the token addresses that can be used for the balance query;
 
-<table><thead><tr><th width="185">Chain</th><th width="322">Token address</th><th>Explorer</th></tr></thead><tbody><tr><td>Goerli</td><td><code>0x30D3C07CEB71553CABe5FA4d29fe4Ce2Aead38e5</code></td><td><a href="https://goerli.etherscan.io/address/0x30D3C07CEB71553CABe5FA4d29fe4Ce2Aead38e5">View on goerli.etherscan.io</a></td></tr><tr><td>Optimism Goerli</td><td><code>0x73969C83706a2aED1D5CB242CA365EdFe679DFE3</code></td><td><a href="https://goerli-optimism.etherscan.io/address/0x73969C83706a2aED1D5CB242CA365EdFe679DFE3">View on goerli-optimism.etherscan.io</a></td></tr><tr><td>Arbiturm Goerli</td><td><code>0xD3BbB5f1269e8Cd3677C951722dA5597D450D121</code></td><td><a href="https://goerli.arbiscan.io/address/0xD3BbB5f1269e8Cd3677C951722dA5597D450D121">View on goerli.arbiscan.io</a></td></tr></tbody></table>
+<table><thead><tr><th width="185">Chain</th><th width="322">Token address</th><th>Explorer</th></tr></thead><tbody><tr><td>Sepolia</td><td><code>0x91D1a12c16d2Ff1c072069a9d9c90d2c0299B244</code></td><td><a href="https://sepolia.etherscan.io/address/0x91D1a12c16d2Ff1c072069a9d9c90d2c0299B244">View on sepolia.etherscan.io</a></td></tr><tr><td>Optimism Sepolia</td><td><code>0x21370CaE272802491CB4115EF4e188Ac3721d992</code></td><td><a href="https://sepolia-optimism.etherscan.io/address/0x21370CaE272802491CB4115EF4e188Ac3721d992">View on sepolia-optimism.etherscan.io</a></td></tr><tr><td>Arbiturm Sepolia</td><td><code>0x0Ea06D21B4163E9C60063e562cBd1739aE7B7015</code></td><td><a href="https://sepolia.arbiscan.io/address/0x0Ea06D21B4163E9C60063e562cBd1739aE7B7015">View on sepolia.arbiscan.io</a></td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/balance_query" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-03 at 6.54.20 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Submit the queries
 
@@ -29,7 +29,7 @@ You can obtain it from the [Mumbai faucet](https://mumbaifaucet.com/) if you don
 
 #### 3. Wait for the query results
 
-After submitting the transaction, you can check it in the explorer ([https://demo.futaba.dev/explorer](https://demo.futaba.dev/explorer)).
+After submitting the transaction, you can check it in the explorer ([https://testnet.futaba.dev/explorer](https://demo.futaba.dev/explorer)).
 
 The data you requested will remain in a "Pending" state until the response transaction is completed, at which point it will be displayed in the "Response Transaction" section of the explorer.
 
