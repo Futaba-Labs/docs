@@ -20,5 +20,4 @@ You can get ERC721 for [cross-chain-voting.md](cross-chain-voting.md "mention") 
 
 After entering your wallet address, press "Send me tokens" to see the transaction hashes of the tokens you got from Faucet in "Your transactions".
 
-<figure><img src="../../.gitbook/assets/faucet" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-05 at 10.31.46 PM.png" alt=""><figcaption></figcaption></figure>
