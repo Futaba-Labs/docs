@@ -12,7 +12,7 @@ To submit a query, you need to specify the choice of chain, the target contract 
 
 You can use tools like [solc](https://docs.soliditylang.org/en/v0.8.19/using-the-compiler.html) or [foundry](https://book.getfoundry.sh/reference/forge/forge-inspect#examples) to determine storage slots. The mapping of storage slots in Solidity is documented in the [official Solidity documentation](https://docs.soliditylang.org/en/v0.8.19/internals/layout\_in\_storage.html).
 
-Additionally, for clearer explanations, you can refer to [the documentation](https://docs.axiom.xyz/developers/sending-a-query/finding-storage-slots) provided by Axiom.
+Additionally, for clearer explanations, you can refer to [the documentation](https://docs.axiom.xyz/docs/developer-resources/on-chain-data/finding-storage-slots) provided by Axiom.
 
 If you don't have data to query, you can use the following sample data to execute the query.\
 (You can query the Sepolia USDC held by `0x1aaaeb006AC4DE12C4630BB44ED00A764f37bef8`)
